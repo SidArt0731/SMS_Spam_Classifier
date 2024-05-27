@@ -9,6 +9,16 @@ This project implements a machine learning model to classify SMS messages as spa
 - Selection of the best performing model based on evaluation metrics like F1 score.
 - Integration with a graphical user interface (GUI) for easy interaction and prediction.
 
+## Comparison of Different Models Used
+
+- Logistic Regression - Accuracy: 0.94, Precision: 0.97, Recall: 0.58, F1 Score: 0.72
+- Naive Bayes - Accuracy: 0.96, Precision: 1.00, Recall: 0.73, F1 Score: 0.84
+- SVM - Accuracy: 0.96, Precision: 0.99, Recall: 0.75, F1 Score: 0.85
+- Random Forest - Accuracy: 0.97, Precision: 1.00, Recall: 0.78, F1 Score: 0.87
+- Gradient Boosting - Accuracy: 0.96, Precision: 0.97, Recall: 0.72, F1 Score: 0.82
+- XGBoost - Accuracy: 0.97, Precision: 0.95, Recall: 0.83, F1 Score: 0.88
+- LightGBM - Accuracy: 0.97, Precision: 0.96, Recall: 0.85, F1 Score: 0.90
+
 ## Dependencies
 This project relies on the following Python libraries:
 
