@@ -11,13 +11,15 @@ This project implements a machine learning model to classify SMS messages as spa
 
 ## Comparison of Different Models Used
 
-- Logistic Regression - Accuracy: 0.94, Precision: 0.97, Recall: 0.58, F1 Score: 0.72
-- Naive Bayes - Accuracy: 0.96, Precision: 1.00, Recall: 0.73, F1 Score: 0.84
-- SVM - Accuracy: 0.96, Precision: 0.99, Recall: 0.75, F1 Score: 0.85
-- Random Forest - Accuracy: 0.97, Precision: 1.00, Recall: 0.78, F1 Score: 0.87
-- Gradient Boosting - Accuracy: 0.96, Precision: 0.97, Recall: 0.72, F1 Score: 0.82
-- XGBoost - Accuracy: 0.97, Precision: 0.95, Recall: 0.83, F1 Score: 0.88
-- LightGBM - Accuracy: 0.97, Precision: 0.96, Recall: 0.85, F1 Score: 0.90
+| Model                | Accuracy | Precision | Recall | F1 Score |
+|----------------------|----------|-----------|--------|----------|
+| Logistic Regression  | 0.94     | 0.97      | 0.58   | 0.72     |
+| Naive Bayes          | 0.96     | 1.00      | 0.73   | 0.84     |
+| SVM                  | 0.96     | 0.99      | 0.75   | 0.85     |
+| Random Forest        | 0.97     | 1.00      | 0.78   | 0.87     |
+| Gradient Boosting    | 0.96     | 0.97      | 0.72   | 0.82     |
+| XGBoost              | 0.97     | 0.95      | 0.83   | 0.88     |
+| LightGBM             | 0.97     | 0.96      | 0.85   | 0.90     |
 
 ## Dependencies
 This project relies on the following Python libraries:
